@@ -15,8 +15,13 @@ public class TestDrieServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if (req.getSession().isNew()){
+            req.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(req,resp);
+        } else {
+            req.getRequestDispatcher("/WEB-INF/pages/welcome.jsp").forward(req, resp);
+        }
 
-        req.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(req,resp);
+
     }
 
     @Override
