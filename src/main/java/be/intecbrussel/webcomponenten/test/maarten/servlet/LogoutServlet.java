@@ -12,9 +12,11 @@ import java.io.IOException;
 public class LogoutServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         HttpSession session = req.getSession();
+        req.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(req,resp);
         session.invalidate();
 
-        req.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(req,resp);
+
     }
 }

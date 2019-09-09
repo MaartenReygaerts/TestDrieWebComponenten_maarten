@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aed2f5d-6d90-406b-8966-0c3241e07bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/test/maarten/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/test/maarten/servlet/LogoutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/test/maarten/servlet/TestDrieServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/webcomponenten/test/maarten/servlet/TestDrieServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/TestDrieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/TestDrieServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maarten.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/maarten.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maarten/WEB-INF/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maarten/WEB-INF/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maarten/WEB-INF/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/TestDrieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maarten/WEB-INF/classes/be/intecbrussel/webcomponenten/test/maarten/servlet/TestDrieServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568014728092</updated>
-      <workItem from="1568014732442" duration="6732000" />
+      <workItem from="1568014732442" duration="7987000" />
     </task>
     <servers />
   </component>

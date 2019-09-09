@@ -37,7 +37,8 @@ public class TestDrieServlet extends HttpServlet {
             session.setAttribute("message",message);
             req.getRequestDispatcher("/WEB-INF/pages/login.jsp").forward(req,resp);
 
-        }else{
+        }
+        else{
             HttpSession session = req.getSession();
             session.setAttribute("name",name);
             req.getRequestDispatcher("/WEB-INF/pages/welcome.jsp").forward(req,resp);
